@@ -1,5 +1,8 @@
 module Calc
 
-# Write your package code here.
+include("Add.jl")
+include("Multiply.jl")
+include("Subtract.jl")
+include("Divide.jl")
 
 end
