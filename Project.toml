@@ -1,0 +1,13 @@
+name = "Calc"
+uuid = "fe1c7612-e615-458d-8791-fb0f9842691f"
+authors = ["Saransh Chopra"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
