@@ -1,6 +1,2 @@
-using Calc
-using Test
-
-@testset "Calc.jl" begin
-    # Write your tests here.
-end
+using SafeTestsets
+@safetestset "Calc Tests" begin include("CalcTests.jl") end
